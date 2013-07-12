@@ -19,3 +19,6 @@
 [submodule "tmux"]
 	path = tmux
 	url = git@github.com:jbnicolai/tmux.git
+[submodule "vim"]
+	path = vim
+	url = git@github.com:jbnicolai/vim.git
