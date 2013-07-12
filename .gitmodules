@@ -7,3 +7,6 @@
 [submodule "irssi"]
 	path = irssi
 	url = git@github.com:jbnicolai/irssi.git
+[submodule "pentadactyl"]
+	path = pentadactyl
+	url = git@github.com:jbnicolai/pentadactyl.git
