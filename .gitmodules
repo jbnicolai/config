@@ -16,3 +16,6 @@
 [submodule "shh"]
 	path = shh
 	url = git@github.com:jbnicolai/ssh.git
+[submodule "tmux"]
+	path = tmux
+	url = git@github.com:jbnicolai/tmux.git
