@@ -10,3 +10,6 @@
 [submodule "pentadactyl"]
 	path = pentadactyl
 	url = git@github.com:jbnicolai/pentadactyl.git
+[submodule "screen"]
+	path = screen
+	url = git@github.com:jbnicolai/screen.git
