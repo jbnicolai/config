@@ -13,8 +13,8 @@
 [submodule "screen"]
 	path = screen
 	url = git@github.com:jbnicolai/screen.git
-[submodule "shh"]
-	path = shh
+[submodule "ssh"]
+	path = ssh
 	url = git@github.com:jbnicolai/ssh.git
 [submodule "tmux"]
 	path = tmux
