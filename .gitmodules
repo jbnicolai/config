@@ -28,3 +28,6 @@
 [submodule "curl"]
 	path = curl
 	url = git@github.com:jbnicolai/curl.git
+[submodule "readline"]
+	path = readline
+	url = git@github.com:jbnicolai/readline.git
