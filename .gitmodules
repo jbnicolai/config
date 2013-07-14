@@ -25,3 +25,6 @@
 [submodule "wget"]
 	path = wget
 	url = git@github.com:jbnicolai/wget.git
+[submodule "curl"]
+	path = curl
+	url = git@github.com:jbnicolai/curl.git
