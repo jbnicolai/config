@@ -22,3 +22,6 @@
 [submodule "vim"]
 	path = vim
 	url = git@github.com:jbnicolai/vim.git
+[submodule "wget"]
+	path = wget
+	url = git@github.com:jbnicolai/wget.git
