@@ -31,3 +31,6 @@
 [submodule "readline"]
 	path = readline
 	url = git@github.com:jbnicolai/readline.git
+[submodule "iterm"]
+	path = iterm
+	url = git@github.com:jbnicolai/iterm.git
