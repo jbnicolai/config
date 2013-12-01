@@ -1,36 +1,48 @@
 [submodule "bash"]
 	path = bash
 	url = git@github.com:jbnicolai/bash.git
+	branch = master
 [submodule "git"]
 	path = git
 	url = git@github.com:jbnicolai/git.git
+	branch = master
 [submodule "irssi"]
 	path = irssi
 	url = git@github.com:jbnicolai/irssi.git
+	branch = master
 [submodule "pentadactyl"]
 	path = pentadactyl
 	url = git@github.com:jbnicolai/pentadactyl.git
+	branch = master
 [submodule "screen"]
 	path = screen
 	url = git@github.com:jbnicolai/screen.git
+	branch = master
 [submodule "ssh"]
 	path = ssh
 	url = git@github.com:jbnicolai/ssh.git
+	branch = master
 [submodule "tmux"]
 	path = tmux
 	url = git@github.com:jbnicolai/tmux.git
+	branch = master
 [submodule "vim"]
 	path = vim
 	url = git@github.com:jbnicolai/vim.git
+	branch = master
 [submodule "wget"]
 	path = wget
 	url = git@github.com:jbnicolai/wget.git
+	branch = master
 [submodule "curl"]
 	path = curl
 	url = git@github.com:jbnicolai/curl.git
+	branch = master
 [submodule "readline"]
 	path = readline
 	url = git@github.com:jbnicolai/readline.git
+	branch = master
 [submodule "iterm"]
 	path = iterm
 	url = git@github.com:jbnicolai/iterm.git
+	branch = master
