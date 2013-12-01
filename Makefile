@@ -17,11 +17,7 @@ pull-master:
 
 
 link:
-	for dir in `find . -maxdepth 1 -type d -not -name ".*"`; do \
-		if [ -e $$dir"/Makefile" ] ; then \
-			cd $$dir; \
-			make; \
-			cd ..; \
-		fi \
+	for d in */; do \
+		( cd $$d && [ -e Makefile ] && make; ) \
 	done
 
