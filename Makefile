@@ -1,4 +1,4 @@
-all: pull submodule-init submodule-fetch submodule-co-master make-children
+all: pull submodule-init submodule-update make-children
 
 pull:
 	git pull origin master
@@ -6,11 +6,8 @@ pull:
 submodule-init:
 	git submodule init
 
-submodule-fetch:
-	git submodule foreach git fetch origin master
-
-submodule-co-master:
-	git submodule foreach git checkout master
+submodule-update:
+	git submodule update --remote
 
 make-children:
 	for d in */; do \
