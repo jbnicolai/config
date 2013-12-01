@@ -1,22 +1,18 @@
-all: pull init update checkout-master pull-master link
+all: pull submodule-init submodule-fetch submodule-co-master make-children
 
 pull:
 	git pull origin master
 
-init:
+submodule-init:
 	git submodule init
 
-update:
-	git submodule update
+submodule-fetch:
+	git submodule foreach git fetch origin master
 
-checkout-master:
+submodule-co-master:
 	git submodule foreach git checkout master
 
-pull-master:
-	git submodule foreach git pull origin master
-
-
-link:
+make-children:
 	for d in */; do \
 		( cd $$d && [ -e Makefile ] && make; ) \
 	done
