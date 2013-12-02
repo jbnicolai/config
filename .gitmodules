@@ -1,48 +1,48 @@
 [submodule "bash"]
-	path = bash
-	url = git@github.com:jbnicolai/bash.git
-	branch = master
-[submodule "git"]
-	path = git
-	url = git@github.com:jbnicolai/git.git
-	branch = master
-[submodule "irssi"]
-	path = irssi
-	url = git@github.com:jbnicolai/irssi.git
-	branch = master
-[submodule "pentadactyl"]
-	path = pentadactyl
-	url = git@github.com:jbnicolai/pentadactyl.git
-	branch = master
-[submodule "screen"]
-	path = screen
-	url = git@github.com:jbnicolai/screen.git
-	branch = master
-[submodule "ssh"]
-	path = ssh
-	url = git@github.com:jbnicolai/ssh.git
-	branch = master
-[submodule "tmux"]
-	path = tmux
-	url = git@github.com:jbnicolai/tmux.git
-	branch = master
-[submodule "vim"]
-	path = vim
-	url = git@github.com:jbnicolai/vim.git
-	branch = master
-[submodule "wget"]
-	path = wget
-	url = git@github.com:jbnicolai/wget.git
-	branch = master
+  branch = master
+  path = bash
+  url = https://github.com/jbnicolai/bash.git
 [submodule "curl"]
-	path = curl
-	url = git@github.com:jbnicolai/curl.git
-	branch = master
-[submodule "readline"]
-	path = readline
-	url = git@github.com:jbnicolai/readline.git
-	branch = master
+  branch = master
+  path = curl
+  url = https://github.com/jbnicolai/curl.git
+[submodule "git"]
+  branch = master
+  path = git
+  url = https://github.com/jbnicolai/git.git
+[submodule "irssi"]
+  branch = master
+  path = irssi
+  url = https://github.com/jbnicolai/irssi.git
 [submodule "iterm"]
-	path = iterm
-	url = git@github.com:jbnicolai/iterm.git
-	branch = master
+  branch = master
+  path = iterm
+  url = https://github.com/jbnicolai/iterm.git
+[submodule "pentadactyl"]
+  branch = master
+  path = pentadactyl
+  url = https://github.com/jbnicolai/pentadactyl.git
+[submodule "readline"]
+  branch = master
+  path = readline
+  url = https://github.com/jbnicolai/readline.git
+[submodule "screen"]
+  branch = master
+  path = screen
+  url = https://github.com/jbnicolai/screen.git
+[submodule "ssh"]
+  branch = master
+  path = ssh
+  url = https://github.com/jbnicolai/ssh.git
+[submodule "tmux"]
+  branch = master
+  path = tmux
+  url = https://github.com/jbnicolai/tmux.git
+[submodule "vim"]
+  branch = master
+  path = vim
+  url = https://github.com/jbnicolai/vim.git
+[submodule "wget"]
+  branch = master
+  path = wget
+  url = https://github.com/jbnicolai/wget.git
