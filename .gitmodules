@@ -46,3 +46,7 @@
   branch = master
   path = wget
   url = https://github.com/jbnicolai/wget.git
+[submodule "ghci"]
+	path = ghci
+	url = https://github.com/jbnicolai/ghci.git
+	branch = master
