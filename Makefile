@@ -1,13 +1,10 @@
-all: pull submodule-init submodule-update make-children
+all: pull submodule make-children
 
 pull:
 	git pull origin master
 
-submodule-init:
-	git submodule init
-
-submodule-update:
-	git submodule update --remote
+submodule:
+	git submodule update --remote --init
 
 make-children:
 	for d in */; do \
