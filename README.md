@@ -6,3 +6,5 @@ Repository of config files, each in their own submodule.
 
 Will update the repository, update the submodules, check out their
 respective master branches and run their respective makefiles.
+
+Requires `git` >= `1.8`
