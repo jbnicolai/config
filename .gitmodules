@@ -10,10 +10,6 @@
   branch = master
   path = git
   url = https://github.com/jbnicolai/git.git
-[submodule "irssi"]
-  branch = master
-  path = irssi
-  url = https://github.com/jbnicolai/irssi.git
 [submodule "iterm"]
   branch = master
   path = iterm
